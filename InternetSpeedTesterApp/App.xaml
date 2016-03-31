@@ -1,0 +1,17 @@
+﻿<Application
+    x:Class="InternetSpeedTesterApp.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:InternetSpeedTesterApp"
+    xmlns:vm="using:InternetSpeedTesterApp.BusinessAccess.ViewModels"
+    RequestedTheme="Light">
+
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <vm:ViewModelLocator x:Key="Locator" />
+
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>
